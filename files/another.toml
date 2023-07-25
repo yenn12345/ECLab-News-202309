@@ -1,0 +1,25 @@
+[editor]
+name = "Name"
+degree = "Undergraduate, 2022"
+
+[article.1]
+title = "This is a title"
+doi = "https://doi.org/example"
+authors = "A B & C D"
+journal = "Journal B"
+publish = "20 July, 2023"
+category = "Emotion"
+summary = "This is a summary"
+abstract = "This is the abstract"
+keywords = "This is keywords"
+
+[article.2]
+title = "2This is a title"
+doi = "https://doi.org/example2"
+authors = "2A B & C D"
+journal = "2Journal B"
+publish = "Volume 37, issue 1, 01 July, 2023"
+category = "Face"
+summary = "2This is a summary"
+abstract = "2This is the abstract"
+keywords = "2This is keywords"
