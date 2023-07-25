@@ -9,10 +9,16 @@ jobs:
       with:
         python-version: '3.11'
         cache: 'pip'
-    - run: make setup
+    - run: pip install -r requirements.txt
+
+  generate:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+    - run: python generate-tex.py
 
   build:
-    needs: setup
+    needs: [setup, generate]
     runs-on: ubuntu-latest
     steps:
     - uses: xu-cheng/latex-action@v2
