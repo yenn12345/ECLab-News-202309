@@ -8,6 +8,7 @@ all: $(PDF)
 
 $(PDF): $(TEX) $(CLS)
 	xelatex $<
+	xelatex $<
 
 clean-misc:
 	$(RM) *.aux *.out *.toc *.nav *.log *.snm
