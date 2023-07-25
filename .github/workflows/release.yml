@@ -4,29 +4,19 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
-
-    - name: checkout
-      uses: actions/checkout@v2
-
-    - name: setup
-      uses: actions/setup-python@v4
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v4
       with:
         python-version: '3.11'
         cache: 'pip'
-      run: pip install -r requirements.txt
-
-    - name: generate
-      run: python generate-tex.py
-
-    - name: build
-      uses: xu-cheng/latex-action@v2
+    - run: pip install -r requirements.txt
+    - run: python generate-tex.py
+    - uses: xu-cheng/latex-action@v2
       with:
         working_directory: tex
         root_file: eclab-beamer.tex
         latexmk_ues_xelatex: true
-
-    - name: upload
-      uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v3
       with:
         name: PDF
         path: tex/eclab-beamer.pdf
