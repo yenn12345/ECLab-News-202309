@@ -1,0 +1,7 @@
+venv
+*/*.aux 
+*/*.out
+*/*.toc
+*/*.nav
+*/*.log
+*/*.snm
