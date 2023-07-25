@@ -10,12 +10,12 @@ jobs:
         python-version: '3.11'
         cache: 'pip'
     - run: pip install -r requirements.txt
-    - run: python generate-tex.py
+    - run: python generate-tex.py > tex/eclab-beamer.tex
     - uses: xu-cheng/latex-action@v2
       with:
         working_directory: tex
         root_file: eclab-beamer.tex
-        latexmk_ues_xelatex: true
+        latexmk_uses_xelatex: true
     - uses: actions/upload-artifact@v3
       with:
         name: PDF
