@@ -1,32 +1,32 @@
 on: release
 
 jobs:
-  setup:
+  release:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - uses: actions/setup-python@v4
+
+    - name: checkout
+      uses: actions/checkout@v2
+
+    - name: setup
+      uses: actions/setup-python@v4
       with:
         python-version: '3.11'
         cache: 'pip'
-    - run: pip install -r requirements.txt
+      run: pip install -r requirements.txt
 
-  generate:
-    needs: setup
-    runs-on: ubuntu-latest
-    steps:
-    - run: python generate-tex.py
+    - name: generate
+      run: python generate-tex.py
 
-  build:
-    needs: [setup, generate]
-    runs-on: ubuntu-latest
-    steps:
-    - uses: xu-cheng/latex-action@v2
+    - name: build
+      uses: xu-cheng/latex-action@v2
       with:
         working_directory: tex
         root_file: eclab-beamer.tex
         latexmk_ues_xelatex: true
-    - uses: actions/upload-artifact@v3
+
+    - name: upload
+      uses: actions/upload-artifact@v3
       with:
         name: PDF
         path: tex/eclab-beamer.pdf
