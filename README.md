@@ -39,7 +39,9 @@ keywords = "关键词" # 用英文逗号分隔
 
 ### 使用GitHub Actions生成
 
-fork这个仓库到自己的账号，将所有toml文件上传至文件夹`files`
+fork这个仓库到自己的账号
+
+删除`files`文件夹中的所有文件，并将所有收集的toml文件上传至`files`
 
 修改`generate-tex.py`中的主编信息：
 
@@ -47,9 +49,9 @@ fork这个仓库到自己的账号，将所有toml文件上传至文件夹`files
 editor_in_chief = ["Editor1, Degree", "Editor2, Degree"]
 ```
 
-确保在仓库设置中允许运行actions。
+确保在仓库设置中允许运行actions
 
-创建一个新的release并发布，等待actions完成即可在release中下载生成的pdf文件。
+创建一个新的release并发布，等待actions完成即可在release中下载生成的pdf文件
 
 ### 本地生成
 
