@@ -15,7 +15,7 @@ jobs:
       with:
         working_directory: tex
         root_file: eclab-beamer.tex
-        latexmk_uses_xelatex: true
+        latexmk_use_xelatex: true
     - uses: actions/upload-artifact@v3
       with:
         name: PDF
