@@ -1,0 +1,26 @@
+on: release
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    - run: make setup
+
+  build:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+    - uses: xu-cheng/latex-action@v2
+      with:
+        working_directory: tex
+        root_file: eclab-beamer.tex
+        latexmk_ues_xelatex: true
+    - uses: actions/upload-artifact@v3
+      with:
+        name: PDF
+        path: tex/eclab-beamer.pdf
