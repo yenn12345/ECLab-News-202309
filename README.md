@@ -47,6 +47,8 @@ fork这个仓库到自己的账号，将所有toml文件上传至文件夹`files
 editor_in_chief = ["Editor1, Degree", "Editor2, Degree"]
 ```
 
+确保在仓库设置中允许运行actions。
+
 创建一个新的release并发布，等待actions完成即可在release中下载生成的pdf文件。
 
 ### 本地生成
