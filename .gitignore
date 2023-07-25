@@ -1,4 +1,6 @@
 venv
+*/*.pdf
+*/*.tex
 */*.aux 
 */*.out
 */*.toc

@@ -127,7 +127,7 @@ for category in categories:
         print("\\textit{" + article['journal'] + ", " + article['publish'] + "}\\\\")
         print("\\href{" + article['doi'] + "}{\\color{blue} \\footnotesize{\\ul{\\textit{" + article['doi'] + "}}}}")
         print("\\end{tabular}}\n")
-        print("\\textbf{\\Large{" + article['title'] + "}}\n\\vspace{1mm}")
+        print("\\textbf{\\Large{" + article['title'] + "}}\n\n\\vspace{1mm}")
         print(article['authors'].replace('&', '\\&'))
         print("\n\\hspace*{\\fill}\n")
         print("\n\\textbf{Abstract:}")
