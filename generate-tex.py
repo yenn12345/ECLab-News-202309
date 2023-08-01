@@ -151,7 +151,7 @@ for category in categories:
         print(article["authors"].replace("&", "\\&"))
         print("\n\\hspace*{\\fill}\n")
         print("\n\\textbf{Abstract:}")
-        print(article["abstract"])
+        print(article["abstract"].replace("%", "\\%"))
         print("\n\\textbf{Keywords:} " + article["keywords"])
         print("\\end{frame}")
 
