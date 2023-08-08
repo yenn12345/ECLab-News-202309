@@ -13,7 +13,7 @@ degree = "你的学位" # 格式类似于Undergraduate, 2022
 
 [article.1] # 罗马数字指定文献编号
 title = "文献标题"
-doi = "文献doi"
+doi = "文献doi" # 以https://doi.org/开头
 authors = "文献作者"
 journal = "期刊名"
 publish = "期刊发布信息" # 如发布日期，卷号、页码等
