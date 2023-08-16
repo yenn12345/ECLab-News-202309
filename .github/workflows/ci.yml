@@ -3,7 +3,7 @@ name: CI
 on: [push, pull_request]
 
 jobs:
-  test:
+  test_format:
     runs-on: ubuntu-20.04
     steps:
       - name: checkout
@@ -17,3 +17,23 @@ jobs:
         run: pip install -r requirements.txt
       - name: run test
         run: python test.py
+  test_generate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v2
+    - name: setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    - name: setup python env
+      run: pip install -r requirements.txt
+    - name: generate tex
+      run: python generate-tex.py > tex/eclab-beamer.tex
+    - name: build pdf
+      uses: xu-cheng/latex-action@v2
+      with:
+        working_directory: tex
+        root_file: eclab-beamer.tex
+        latexmk_use_xelatex: true
