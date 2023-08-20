@@ -7,8 +7,23 @@ editor_in_chief = ["Qing Gu, Undergraduate, 2018", "Hongxu Zhou, Undergraduate, 
 
 editors = []
 
+def escape_special_char(string):
+    return string.replace("&", "\\&").replace("%", "\\%").replace("$", "\\$").replace("~", "\\~").replace("{", "\\{").replace("}", "\\}")
+
+def escape(input):
+    if isinstance(input, str):
+        return escape_special_char(input)
+    if isinstance(input, list):
+        return [escape(i) for i in input]
+    if isinstance(input, dict):
+        output_dict = {}
+        for k, v in input.items():
+            output_dict[k] = escape(v)
+        return output_dict
+    return input
+
 for file in os.listdir("files"):
-    editors.append(load(os.path.join("files", file)))
+    editors.append(escape(load(os.path.join("files", file))))
 
 associate_editor = []
 journals = []
@@ -119,7 +134,7 @@ for category in categories:
             + article["title"]
             + "}}"
         )
-        print("\n\\footnotesize{" + article["authors"].replace("&", "\\&") + "}\n")
+        print("\n\\footnotesize{" + article["authors"] + "}\n")
         print(article["summary"])
     print("\\end{enumerate}")
 print(
@@ -148,10 +163,10 @@ for category in categories:
         )
         print("\\end{tabular}}\n")
         print("\\textbf{\\Large{" + article["title"] + "}}\n\n\\vspace{1mm}")
-        print(article["authors"].replace("&", "\\&"))
+        print(article["authors"])
         print("\n\\hspace*{\\fill}\n")
         print("\n\\textbf{Abstract:}")
-        print(article["abstract"].replace("%", "\\%"))
+        print(article["abstract"])
         print("\n\\textbf{Keywords:} " + article["keywords"])
         print("\\end{frame}")
 
