@@ -37,10 +37,11 @@ for editor in editors:
         journal = article["journal"]
         if journal not in journals:
             journals.append(journal)
-        category = article["category"]
-        if category not in categories:
-            categories[category] = []
-        categories[category].append(article)
+        given_categories = [c.strip() for c in article["category"].split(',')]
+        for category in given_categories:
+            if category not in categories:
+                categories[category] = []
+            categories[category].append(article)
 
 print(
     """\\documentclass{eclab-beamer}
@@ -145,8 +146,11 @@ print(
 """
 )
 
+generated_articles = []
 for category in categories:
     for article in categories[category]:
+        if article in generated_articles:
+            continue;
         print(
             "\\begin{frame}[allowframebreaks]{\\color{black} \\normalsize{\\ul{"
             + category
@@ -169,5 +173,6 @@ for category in categories:
         print(article["abstract"])
         print("\n\\textbf{Keywords:} " + article["keywords"])
         print("\\end{frame}")
+        generated_articles.append(article)
 
 print("\\end{document}")
