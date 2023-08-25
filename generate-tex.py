@@ -30,7 +30,7 @@ journals = []
 categories = {}
 for editor in editors:
     associate_editor.append(
-        editor["editor"]["name"] + ", " + editor["editor"]["degree"]
+        editor["editor"]["name"].title() + ", " + editor["editor"]["degree"]
     )
     for key in editor["article"]:
         article = editor["article"][key]
@@ -39,6 +39,7 @@ for editor in editors:
             journals.append(journal)
         given_categories = [c.strip() for c in article["category"].split(',')]
         for category in given_categories:
+            category = category.capitalize()
             if category not in categories:
                 categories[category] = []
             categories[category].append(article)
