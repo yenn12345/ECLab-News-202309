@@ -134,7 +134,7 @@ for category in categories:
             + article["doi"]
             + "}{\\color{blue} \\ul{"
             + article["title"]
-            + "}}"
+            + "}}\\vspace{.01\\textheight}"
         )
         print("\n\\footnotesize{" + article["authors"] + "}\n")
         print(article["summary"])
