@@ -136,8 +136,9 @@ for category in categories:
             + article["title"]
             + "}}\\vspace{.01\\textheight}"
         )
-        print("\n\\footnotesize{" + article["authors"] + "}\n")
+        print("\n\\footnotesize{" + article["authors"] + "}\n\\vspace{.01\\textheight}")
         print(article["summary"])
+        print("\n\\vspace{.01\\textheight}")
     print("\\end{enumerate}")
 print(
     """
@@ -172,7 +173,7 @@ for category in categories:
         print("\n\\hspace*{\\fill}\n")
         print("\n\\textbf{Abstract:}")
         print(article["abstract"])
-        print("\n\\textbf{Keywords:} " + article["keywords"])
+        print("\n\\vspace{.01\\textheight}\\textbf{Keywords:} " + article["keywords"])
         print("\\end{frame}")
         generated_articles.append(article)
 
