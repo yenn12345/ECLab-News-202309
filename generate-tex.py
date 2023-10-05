@@ -1,9 +1,9 @@
 from toml import load
 import os
 
-month = 7
+month = 8
 
-editor_in_chief = ["Qing Gu, Undergraduate, 2018", "Hongxu Zhou, Undergraduate, 2019"]
+editor_in_chief = ["Xuyao Fan, Undergraduate, 2021", "Jiaying Lu, Undergraduate, 2021"]
 
 editors = []
 
@@ -23,7 +23,10 @@ def escape(input):
     return input
 
 for file in os.listdir("files"):
-    editors.append(escape(load(os.path.join("files", file))))
+    try:
+        editors.append(escape(load(os.path.join("files", file))))
+    except:
+        print("Error loading file: " + file)
 
 associate_editor = []
 journals = []
@@ -46,8 +49,6 @@ for editor in editors:
 
 print(
     """\\documentclass{eclab-beamer}
-
-\\usepackage{soul}
 
 \\title{\\sffamily 东西情报}
 """
@@ -132,9 +133,9 @@ for category in categories:
         print(
             "\\item \\href{"
             + article["doi"]
-            + "}{\\color{blue} \\ul{"
+            + "}{\\color{blue} "
             + article["title"]
-            + "}}\\vspace{.01\\textheight}"
+            + "}\\vspace{.01\\textheight}"
         )
         print("\n\\footnotesize{" + article["authors"] + "}\n\\vspace{.01\\textheight}")
         print(article["summary"])
@@ -154,18 +155,18 @@ for category in categories:
         if article in generated_articles:
             continue;
         print(
-            "\\begin{frame}[allowframebreaks]{\\color{black} \\normalsize{\\ul{"
+            "\\begin{frame}[allowframebreaks]{\\color{black} \\normalsize{"
             + category
-            + "}} \\hfill"
+            + "} \\hfill"
         )
         print("\\begin{tabular}{r}")
         print("\\textit{" + article["journal"] + ", " + article["publish"] + "}\\\\")
         print(
             "\\href{"
             + article["doi"]
-            + "}{\\color{blue} \\footnotesize{\\ul{\\textit{"
+            + "}{\\color{blue} \\footnotesize{\\textit{"
             + article["doi"]
-            + "}}}}"
+            + "}}}"
         )
         print("\\end{tabular}}\n")
         print("\\textbf{\\Large{" + article["title"] + "}}\n\n\\vspace{1mm}")
