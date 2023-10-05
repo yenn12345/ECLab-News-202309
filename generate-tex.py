@@ -50,6 +50,8 @@ for editor in editors:
 print(
     """\\documentclass{eclab-beamer}
 
+\\usepackage{soul}
+
 \\title{\\sffamily 东西情报}
 """
     + "\\subtitle{\\sffamily "
@@ -133,9 +135,9 @@ for category in categories:
         print(
             "\\item \\href{"
             + article["doi"]
-            + "}{\\color{blue} "
+            + "}{\\color{blue} \\ul{"
             + article["title"]
-            + "}\\vspace{.01\\textheight}"
+            + "}}\\vspace{.01\\textheight}"
         )
         print("\n\\footnotesize{" + article["authors"] + "}\n\\vspace{.01\\textheight}")
         print(article["summary"])
@@ -155,18 +157,18 @@ for category in categories:
         if article in generated_articles:
             continue;
         print(
-            "\\begin{frame}[allowframebreaks]{\\color{black} \\normalsize{"
+            "\\begin{frame}[allowframebreaks]{\\color{black} \\normalsize{\\ul{"
             + category
-            + "} \\hfill"
+            + "}} \\hfill"
         )
         print("\\begin{tabular}{r}")
         print("\\textit{" + article["journal"] + ", " + article["publish"] + "}\\\\")
         print(
             "\\href{"
             + article["doi"]
-            + "}{\\color{blue} \\footnotesize{\\textit{"
+            + "}{\\color{blue} \\footnotesize{\\ul{\\textit{"
             + article["doi"]
-            + "}}}"
+            + "}}}}"
         )
         print("\\end{tabular}}\n")
         print("\\textbf{\\Large{" + article["title"] + "}}\n\n\\vspace{1mm}")
