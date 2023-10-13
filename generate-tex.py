@@ -139,7 +139,7 @@ for category in categories:
             + article["title"]
             + "}}\\vspace{.01\\textheight}"
         )
-        print("\n\\footnotesize{" + article["authors"] + "}\n\\vspace{.01\\textheight}")
+        print("\n\\footnotesize{" + article["authors"] + "}\n\n\\vspace{.01\\textheight}")
         print(article["summary"])
         print("\n\\vspace{.01\\textheight}")
     print("\\end{enumerate}")
