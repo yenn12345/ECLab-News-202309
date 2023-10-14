@@ -1,0 +1,36 @@
+[edit]
+name = "Yue zhang"
+degree = "Undergraduate, 2022"
+
+[article.1]
+title = "A first impression of the future"
+doi = "https://doi/10.1111/bjop.12652"
+authors = "Clare A.M.Sutherland & Andrew W.Young"
+journal = "British Journal of Psychology"
+publish = "Volume 114, Issue 4, Novermber 2023"
+category = "face"
+summary = "本文针对了解面部特征印象研究提出了未来研究需要增加面孔与参与者多样性的重要性，整合如声音之类面孔以外的印象研究，强调个体关于印象的差异性和发展性，并继续开发数据驱动所需的方法”
+abstract = "We offer a response to six commentaries on our target article ‘Understanding trait impressions from faces’. A broad consensus emerged with authors emphasizing the importance of increasing the diversity of faces and participants, integrating research on impressions beyond the face, and continuing to develop methods needed for data-driven approaches. We propose future directions for the field based on these themes."
+keywords = "face, trait impression"
+
+[article.2]
+title = "Collaboration to improve cross-race face identification: Wisdom of the multi-racial crowd?"
+doi = "https://doi/10.1111/bjop.12657"
+authors = "Jacqueline G. Cavazos & Géraldine Jeckeln & Alice J. O'Toole"
+journal = "British Journal of Psychology"
+publish = "Volume 114, Issue 4, Novermber 2023"
+category = "face identification and cross-race"
+summary = "本研究探讨了二元组中个体的种族多样性如何影响面部识别任务的社会和非社会协作的问题，实验1评估合作对自己和其他种族人脸识别的好处，发现协作提高了自己和其他种族面孔的识别准确性。实验2中比较种族多样化的二元组（东亚人和白人）与种族同质的二元组（两个东亚或两个白人参与者），发现社会协作对不同种族的二元组的帮助可能不如对同种族的二元组"
+abstract = "Face identification is particularly prone to error when individuals identify people of a race other than their own – a phenomenon known as the other-race effect (ORE). Here, we show that collaborative “wisdom-of-crowds” decision-making substantially improves face identification accuracy for own- and other-race faces over individuals working alone. In two online experiments, East Asian and White individuals recognized own- and other-race faces as individuals and as part of a collaborative dyad. Collaboration never proved more beneficial in a social setting than when individual identification decisions were combined computationally. The reliable benefit of non-social collaboration may stem from its ability to avoid the potential negative outcomes of group diversity such as conflict. Consistent with this benefit, the racial diversity of collaborators did not influence either general or race-specific face identification accuracy. Our findings suggest that collaboration between two individuals is a promising strategy for improving cross-race face identification that may translate effectively into forensic and eyewitness settings."
+keywords = "face identification, other-race effect (ORE), cross-race, collaboration, Wisdom of the multi-racial crowd"
+
+[article.3]
+title = "How much are they predictive for obsessive-compulsive symptom dimensions: beliefs, emotions, emotional schemas?"
+doi = "https://article/10.1007/s12144-022-03969-0"
+authors = "Esengül Ekici & Mustafa Ugurlu & Yasir Safak & Kadir Ozdel"
+journal = "British Journal of Psychology"
+publish = "Volume 114, Issue 4, Novermber 2023"
+category = "emotion"
+summary = "本研究假设情绪将通过强迫信念和污染、伤害和不可接受的对称维度中的消极情绪图式来促成OC症状维度，通过对强迫症患者于不符合任何精神病诊断的志愿者作对照，发现污染维度与焦虑、愤怒、内疚有关，并通过无效、持续时间和低表达模式、完美主义/不确定性不耐受、厌恶、焦虑和内疚来预测。与文献相反，污染维度没有发现与厌恶有关，但厌恶是这个维度中相当大的情绪"
+abstract = "Regarding symptoms, Obsessive-Compulsive Disorder (OCD) is a heterogeneous disorder, and the dimensions of contamination, harm, unwanted thoughts, and symmetry may vary in each patient. This study aims to investigate cognitive and emotional factors that are considered effective on OCD dimensions. One hundred ten patients with OCD and 104 healthy controls were included in this study. Dimensional Obsessions and Compulsions Scale (DOCS), Obsessive Beliefs Questionnaire-44 (OBQ-44), State-Trait Anxiety Inventory (STAI), State-Trait Anger Expression Inventory (STAXI), Guilt Inventory (GI), Disgust Scale (DS-R), Leahy Emotional Schema Scale-II (LESS-II), and Beck Depression Inventory (BDI) were administered to the OCD with healthy control to check clinical differences. As a result of the study, it was found that both cognitive and emotional factors and their relations with each other varied depending on the OCD dimensions. OCD is a disorder that differs in each patient in terms of clinical course, response to treatment, and age of onset. Establishing the cognitive and emotional factors that may be related to the difference might be significant for developing therapeutic interventions focused on these factors."
+keywords = "Obsessive-Compulsive Disorder (OCD), cognitive and emotional factors, contamination dimension"
