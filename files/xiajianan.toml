@@ -1,0 +1,25 @@
+[editor]
+name = "Jianan XIA"
+degree = "Undergraduate, 2020"
+
+[article.1]
+title = "Absence of age differences in emotion perception and gaze patterns using a contextually rich film-based assessment"
+doi = "https://doi.org/10.1177/17470218221141644"
+authors = "Sarah A Grainger & Julie D Henry"
+journal = "Quarterly Journal of Experimental Psychology"
+publish = "Volume 76, issue 9, Pages 2017-2027"
+category = "Emotion"
+summary = "本研究通过具有高生态效度的情境化电影测试和传统的情绪知觉任务两种情绪知觉任务，得到了情绪知觉年龄差异的不同结果，说明不同年龄间的情绪知觉差异可能是由于情绪知觉特征的不同导致的。"
+abstract = "Age differences in emotion perception are now well documented. However, a key limitation of many studies in this literature is the reliance on highly artificial tasks that lack context and consequently have poor ecological validity. This study reports two separate experiments that investigated age differences in emotion perception abilities using a highly contextualised film-based assessment along with a traditional emotion perception task. Experiment 2 additionally included a middle-aged sample and an assessment of eye-gaze patterns to the emotional films. The inclusion of eyetracking in Experiment 2 was motivated by the fact that older adults consistently show visual biases to static emotion stimuli, yet it remains unclear whether biases also emerge in response to dynamic contextualised emotion stimuli. Experiment 1 identified age effects recognising displays of anger in the traditional emotion perception task but no age differences emerged on the film-based task. This finding was replicated in Experiment 2 with significant group differences on the traditional emotion perception task but no age differences on the film-based task. Experiment 2 also showed that there were no age differences in gaze patterns to these stimuli, showing for the first time that age-related visual biases to emotion stimuli may be task dependent. These findings highlight the fact that task-related features play a key role in the evaluation of age effects in emotion perception."
+keywords = "emotion perception, age differences, lifespan ageing, eye-gaze patterns, self-conscious emotions"
+
+[article.2]
+title = "Knowledge of identity reduces variability in trait judgements across face images"
+doi = "https://doi.org/10.1177/17470218221136118"
+authors = "Taylor Gogan, Jennifer Beaudry, Julian Oldmeadow"
+journal = "Quarterly Journal of Experimental Psychology"
+publish = "Volume 76, issue 9, Pages 2053-2067"
+category = "Face"
+summary = "本研究通过让参与者（N=100）对340张数据库的面孔进行感知可信度、主导地位和吸引力进行评分。结果发现，相比于随机呈现面孔，当面孔以身份合集的呈现时，参与者对面孔的可信度判断变化较小，并且在集合中呈现较晚的更一致。"
+abstract = "Faces vary from image to image, eliciting different judgements of traits and often different judgements of identity. Knowledge that two face images belong to the same person facilitates the processing of identity information across images, but it is unclear if this also applies to trait judgements. In this preregistered study, participants (N = 100) rated the same 340 face images on perceived trustworthiness, dominance, or attractiveness presented in randomised order and again later presented in sets consisting of the same identity. We also explored the role of implicit person theory beliefs in the variability of social judgements across images. We found that judgements of trustworthiness varied less when images were presented in sets consisting of the same identity than in randomised order and were more consistent for images presented later in a set than those presented earlier. However, knowledge of identity had little effect on perceptions of dominance and attractiveness. Finally, implicit person theory beliefs were not associated with variability in social judgements and did not account for effects of knowledge of identity. Our findings suggest that knowledge of identity and perceptual familiarity stabilises judgements of trustworthiness, but not perceptions of dominance and attractiveness."
+keywords = "face perception, first impressions, trait judgements, within-person variability"
