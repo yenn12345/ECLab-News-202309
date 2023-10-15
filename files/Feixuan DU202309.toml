@@ -1,0 +1,25 @@
+[editor]
+name = "Feixuan DU"
+degree = "Undergraduate, 2020"
+
+[article.1]
+title = "No increased prevalence of prosopagnosia in aphantasia: Visual recognition deficits are small and not restricted to faces"
+doi = "https://doi.org/10.1177/03010066231180712"
+authors = "Merlin Monzel, Annabel Vetterlein, Svea A. Hogeterp & Martin Reuter"
+journal = "Perception"
+publish = "Volume 52, issue 9, 1 Oct, 2023"
+category = "Face, Recognition"
+summary = "心盲症(Aphantasia)和面孔失认症(Prosopagnosia)是罕见的视觉认知障碍疾病，研究者假设心盲症患者不仅在面孔识别方面存在障碍，而更多地在于整体视觉识别表现上存在障碍，这可能受到刺激复杂性的调节。研究者使用剑桥面部记忆测试以及相应的对象识别任务，得到结果心盲症和视觉识别缺陷有关。"
+abstract = "Aphantasia and prosopagnosia are both rare conditions with impairments in visual cognition. While prosopagnosia refers to a face recognition deficit, aphantasics exhibit a lack of mental imagery. Current object recognition theories propose an interplay of perception and mental representations, making an association between recognition performance and visual imagery plausible. While the literature assumes a link between aphantasia and prosopagnosia, other impairments in aphantasia have been shown to be rather global. Therefore, we assumed that aphantasics do not solely exhibit impairments in face recognition but rather in general visual recognition performance, probably moderated by stimulus complexity. To test this hypothesis, 65 aphantasics were compared to 55 controls in a face recognition task, the Cambridge Face Memory Test, and a corresponding object recognition task, the Cambridge Car Memory Test. In both tasks, aphantasics performed worse than controls, indicating mild recognition deficits without face-specificity. Additional correlations between imagery vividness and performance in both tasks were found, suggesting that visual imagery influences visual recognition not only in imagery extremes. Stimulus complexity produced the expected moderation effect but only for the whole imagery-spectrum and only with face stimuli. Overall, the results imply that aphantasia is linked to a general but mild deficit in visual recognition."
+keywords = "Aphantasia, prosopagnosia, Visual imagery, Visual agnosia, Face recognition, Object recognition"
+
+[article.2]
+title = "Immigrant Workers’ Language Proficiency and Cultural Identity Congruence and Work–Family Conflict: The Mediating Role of Interpersonal Conflict at Work"
+doi = "https://doi.org/10.1177/00220221231194597"
+authors = "Sudong Shang, Tengfei Guo, Maree Roche, Neena Gopalan & Minghui Wang"
+journal = "Journal of Cross-Cultural Psychology"
+publish = "Volume 54, issue 6-7, Sep-Oct 2023, Pages 684-704"
+category = "Cultural identity, Cross-culture"
+summary = "为了了解跨文化背景下的工作-家庭冲突(WFC)，研究者通过调查文化适应的两个重要方面（即语言能力和文化认同）如何共同影响移民工人的WFC。研究者使用在新西兰的中国移民者的数据进行分析，研究结果表明语言能力和文化认同的一致性会降低工作中的人际冲突(ICW)水平。"
+abstract = "To facilitate a much greater understanding of work–family conflict (WFC) in the cross-cultural context, work–family research begins to investigate the critical role of acculturation in WFC. The purpose of this study is to expand understanding of the role of acculturation in a more nuanced way by investigating how two important facets of acculturation (i.e., language proficiency and cultural identity), jointly influence WFC among immigrant workers. We conducted a polynomial regression with response surface analysis using two-wave longitudinal data from Chinese immigrants in New Zealand (N = 264). The results showed that the congruence of language proficiency and cultural identity led to lower levels of interpersonal conflict at work (ICW). However, the congruence between them at high levels did not lead to lower levels of ICW compared to congruence at low levels. In addition, ICW fully mediated the combined effects of immigrant workers’ language proficiency and cultural identity on their WFC. Our results suggest that benefits are associated with language proficiency and cultural identity congruence and the findings provide insight into the role of acculturation in WFC."
+keywords = "Work–family conflict, Interpersonal conflict at work, Acculturation, Language proficiency, Cultural identity"
