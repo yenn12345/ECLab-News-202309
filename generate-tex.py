@@ -1,4 +1,5 @@
 from toml import load
+from proces import full_angle_to_half_angle
 import os
 
 month = 9
@@ -7,8 +8,17 @@ editor_in_chief = ["Zhuoyun Wu, Undergraduate, 2021", "Jingli Liu, Undergraduate
 
 editors = []
 
+
 def escape_special_char(string):
-    return string.replace("&", "\\&").replace("%", "\\%").replace("$", "\\$").replace("~", "\\~").replace("{", "\\{").replace("}", "\\}")
+    return (
+        string.replace("&", "\\&")
+        .replace("%", "\\%")
+        .replace("$", "\\$")
+        .replace("~", "\\~")
+        .replace("{", "\\{")
+        .replace("}", "\\}")
+    )
+
 
 def escape(input):
     if isinstance(input, str):
@@ -18,9 +28,18 @@ def escape(input):
     if isinstance(input, dict):
         output_dict = {}
         for k, v in input.items():
+            if k != "summary" and isinstance(v, str):
+                v = (
+                    full_angle_to_half_angle(v)
+                    .replace("’", "'")
+                    .replace("‘", "'")
+                    .replace("“", '"')
+                    .replace("”", '"')
+                )
             output_dict[k] = escape(v)
         return output_dict
     return input
+
 
 for file in os.listdir("files"):
     try:
@@ -40,7 +59,7 @@ for editor in editors:
         journal = article["journal"]
         if journal not in journals:
             journals.append(journal)
-        given_categories = [c.strip() for c in article["category"].split(',')]
+        given_categories = [c.strip() for c in article["category"].split(",")]
         for category in given_categories:
             category = category.capitalize()
             if category not in categories:
@@ -139,7 +158,9 @@ for category in categories:
             + article["title"]
             + "}}\\vspace{.01\\textheight}"
         )
-        print("\n\\footnotesize{" + article["authors"] + "}\n\n\\vspace{.01\\textheight}")
+        print(
+            "\n\\footnotesize{" + article["authors"] + "}\n\n\\vspace{.01\\textheight}"
+        )
         print(article["summary"])
         print("\n\\vspace{.01\\textheight}")
     print("\\end{enumerate}")
@@ -155,7 +176,7 @@ generated_articles = []
 for category in categories:
     for article in categories[category]:
         if article in generated_articles:
-            continue;
+            continue
         print(
             "\\begin{frame}[allowframebreaks]{\\color{black} \\normalsize{\\ul{"
             + category
