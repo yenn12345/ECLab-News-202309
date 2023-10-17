@@ -35,6 +35,7 @@ def escape(input):
                     .replace("‘", "'")
                     .replace("“", '"')
                     .replace("”", '"')
+                    .replace("–", "-")
                 )
             output_dict[k] = escape(v)
         return output_dict
