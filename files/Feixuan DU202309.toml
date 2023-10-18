@@ -1,5 +1,5 @@
 [editor]
-name = "Feixuan DU"
+name = "Feixuan Du"
 degree = "Undergraduate, 2020"
 
 [article.1]
@@ -9,7 +9,7 @@ authors = "Merlin Monzel, Annabel Vetterlein, Svea A. Hogeterp & Martin Reuter"
 journal = "Perception"
 publish = "Volume 52, issue 9, 1 Oct, 2023"
 category = "Face, Recognition"
-summary = "心盲症(Aphantasia)和面孔失认症(Prosopagnosia)是罕见的视觉认知障碍疾病，研究者假设心盲症患者不仅在面孔识别方面存在障碍，而更多地在于整体视觉识别表现上存在障碍，这可能受到刺激复杂性的调节。研究者使用剑桥面部记忆测试以及相应的对象识别任务，得到结果心盲症和视觉识别缺陷有关。"
+summary = "心盲症(Aphantasia)和面孔失认症(Prosopagnosia)是罕见的视觉认知障碍疾病，研究者假设心盲症患者不仅在面孔识别方面存在障碍，而更多地在于整体视觉识别表现上存在障碍，这可能受到刺激复杂性的调节。研究者使用剑桥面部记忆测试以及相应的对象识别任务，发现心盲症和视觉识别缺陷有关。"
 abstract = "Aphantasia and prosopagnosia are both rare conditions with impairments in visual cognition. While prosopagnosia refers to a face recognition deficit, aphantasics exhibit a lack of mental imagery. Current object recognition theories propose an interplay of perception and mental representations, making an association between recognition performance and visual imagery plausible. While the literature assumes a link between aphantasia and prosopagnosia, other impairments in aphantasia have been shown to be rather global. Therefore, we assumed that aphantasics do not solely exhibit impairments in face recognition but rather in general visual recognition performance, probably moderated by stimulus complexity. To test this hypothesis, 65 aphantasics were compared to 55 controls in a face recognition task, the Cambridge Face Memory Test, and a corresponding object recognition task, the Cambridge Car Memory Test. In both tasks, aphantasics performed worse than controls, indicating mild recognition deficits without face-specificity. Additional correlations between imagery vividness and performance in both tasks were found, suggesting that visual imagery influences visual recognition not only in imagery extremes. Stimulus complexity produced the expected moderation effect but only for the whole imagery-spectrum and only with face stimuli. Overall, the results imply that aphantasia is linked to a general but mild deficit in visual recognition."
 keywords = "Aphantasia, prosopagnosia, Visual imagery, Visual agnosia, Face recognition, Object recognition"
 
