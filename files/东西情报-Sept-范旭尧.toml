@@ -1,0 +1,69 @@
+[editor]
+name = "Xuyao Fan"
+degree = "Undergraduate, 2021"
+
+[article.1]
+title = "Affective language spreads between anxious children and their mothers during a challenging puzzle task"
+doi = "https://doi.org/10.1037/emo0001203"
+authors = "Nook, Erik C.; Nardini, Cristina; Zacharek, Sadie J.; Hommel, Grace; Spencer, Hannah; Martino, Alyssa; Morra, Allison; Flores, Silvia; Anderson, Tess; Marin, Carla E.; Silverman, Wendy K.; Lebowitz, Eli R.; Gee, Dylan G"
+journal = "Emotion"
+publish = "23(6), 1513–1521"
+category = "Emotion"
+summary = "本研究测试母亲和孩子是否会影响对方对情感语言的使用。93对符合焦虑症诊断标准的6-12岁儿童及其母亲在视频录制的同时完成了一项具有挑战性的拼图任务。分析表明，母亲和孩子确实影响了彼此的情感语言。"
+abstract = "Humans influence each other's emotions. The spread of emotion is well documented across behavioral, psychophysiological, and neuroscientific levels of analysis, but might this influence also be evident in language (e.g., are people more likely to use emotion words after hearing someone else use them)? The current study tests whether mothers and children influence each other's use of affective language. From 2018 to 2020, children aged 6–12 who met diagnostic criteria for anxiety disorders and their mothers (N = 93 dyads) completed a challenging puzzle task while being video recorded. Analyses of transcriptions revealed that mothers and children indeed influenced each other's language. Bidirectional influence was observed for use of negative affect words: Mothers were more likely to use negative affect words if their child had just used negative affect words (over and above mothers' own language on their previous turn), and children were similarly influenced by mother affect word use. A similar bidirectional relation emerged for linguistic distance, a measure related to effective emotion regulation and mental health. However, the significance of the child-to-mother direction of influence for these two variables varied depending on correction threshold and should thus be verified in future research. Nonetheless, these findings extend understanding of emotional influence by showing turn-by-turn relations between the use of affective language."
+keywords = "language, emotion, anxiety, parent-child interactions, emotional influence"
+
+[article.2]
+title = "Cultural differences in recognizing emotions of masked faces"
+doi = "https://doi.org/10.1037/emo0001181"
+authors = "Saito, Toshiki; Motoki, Kosuke; Takano, Yuji"
+journal = "Emotion"
+publish = "23(6), 1648–1657"
+category = "Face, Cross-culture"
+summary = "基于先前显示情绪识别文化差异的研究结果，本研究中203名美国人和209名日本参与者判断了戴口罩和不戴口罩的面孔的情绪。结果表明，口罩降低了美国人识别快乐情绪的准确性，但日本人却没有；对戴口罩和不戴口罩的面孔的情绪识别存在文化差异。"
+abstract = "In the wake of the global pandemic, interacting with others while wearing masks has emerged as a global challenge. A growing body of literature has reported that face masks hinder emotion recognition in Western populations. Given that diagnostic facial features for recognizing specific emotions (e.g., happiness) differ between Western and Eastern cultures, there may be cultural differences in the effects of face masks on emotion recognition. Relying on the previous findings showing cultural differences in emotion recognition, we conducted a preregistered study where 203 American and 209 Japanese participants judged the emotional expressions of faces (happy, fearful, angry, sad, disgust, and neutral) with and without masks. The results showed cultural differences in emotion recognition of faces with and without masks. Specifically, face masks decreased the accuracy of happy emotion recognition in the Americans but not in the Japanese. The results suggest that the effect of wearing masks on emotion recognition depends on the types of emotions and culture and supports previous findings indicating cultural differences in the decoding strategy for facial expressions."
+keywords = "culture, happy, fearful, masks, emotion recognition"
+
+[article.3]
+title = "Tracking emotions from song lyrics: Analyzing 30 years of K-pop hits"
+doi = "https://doi.org/10.1037/emo0001185"
+authors = "Jo, Wonkwang; Kim, M. Justin"
+journal = "Emotion"
+publish = "23(6), 1658–1669"
+category = "Emotion, Culture"
+summary = "许多人共有的情绪可能会广泛影响个人层面的情感体验。本研究对1990年至2019年的2962首热门K-pop歌曲进行语素频率分析和结构主题建模来跟踪情绪随时间的变化。结果显示出歌词中积极情绪内容增加和消极情绪内容减少的趋同证据，这与韩国过去30年的快速变化一致。"
+abstract = "Emotions that are shared by a large number of people could broadly impact affective experiences at the individual level. Here, we used text mining on popular song lyrics—a cultural product that has been suggested to mirror emotions that many members of a society value and prefer—to track the changes in emotions over time. Morpheme frequency analysis and structural topic modeling on 2,962 hit K-pop songs from 1990 to 2019 showed converging evidence for increased positive emotional content and decreased negative emotional content embedded within the lyrics. This pattern of temporal shift in emotions aligned with rapid changes in South Korea in the past 30 years, notably a rise in individualism and ego orientation in a traditionally collectivistic culture, as well as economic growth. More generally, this study illustrates a strategy for tracking emotions that people value and prefer from large natural language data, supplementing existing methods such as self-reported surveys and laboratory experiments."
+keywords = "Emotion, Lyrics, K-pop, Culture"
+
+[article.4]
+title = "Facing emotional politicians: Do emotional displays of politicians evoke mimicry and emotional contagion?"
+doi = "https://doi.org/10.1037/emo0001172"
+authors = "Homan, Maaike D.; Schumacher, Gijs; Bakker, Bert N"
+journal = "Emotion"
+publish = "23(6), 1702–1713"
+category = "Emotion, Culture"
+summary = "本研究通过测试参与者在观看政客情绪表现时的情绪模仿和情绪传染发现，参与者对其支持政党的政客的快乐表现产生积极的面部反应；而以微笑回应其反对政党的政客的愤怒表现。文章强调两极分化的先前信念会影响选民对政治的情绪反应。"
+abstract = "Emotional displays of politicians can be persuasive. According to prominent psychological theories, we can easily “catch” the emotional displays of others through mimicry and emotional contagion. Do these processes work for politicians too, or is it conditional on what voters think of the politician making the display? In a preregistered within-subjects laboratory experiment, participants observed images of neutral and manipulated emotional displays of politicians. We measured emotional mimicry (facial electromyography) and emotional contagion (self-reports). We do not find evidence for the matched motor hypothesis. Our findings are in line with the emotional mimicry in social context model. Namely, we find that the happy displays of in-party politicians elicit congruent facial activity (a positive facial index). Furthermore, the displays of the out-party politicians do not elicit mimicry, but instead our findings suggest a reactive response: Participants smiled in response to angry out-party politicians. The self-reported emotions indicated a small effect of emotional contagion. Taken together, our study provides insights in how voters are emotionally affected by politicians’ emotional displays and highlights that our polarized prior beliefs color our emotional responses to politics. "
+keywords = "mimicry, emotion contagion, politician, emotional display"
+
+[article.5]
+title = "Prosocial behavior reliably reduces loneliness: An investigation across two studies"
+doi = "https://doi.org/10.1037/emo0001179"
+authors = "Lanser, Isabelle; Eisenberger, Naomi I"
+journal = "Emotion"
+publish = "23(6), 1781–1790"
+category = "Mood, Behavior"
+summary = "本研究为评估亲社会行为是否可以减轻状态孤独感，进行了两项亲社会行为实验。结果表明，亲社会行为可靠地减少了状态孤独感并改善了情绪，但在减少对自我的自发消极想法方面效果较差。"
+abstract = "Prosocial behavior, any behavior with the goal of benefiting another person, has been shown to improve mood and boost overall well-being for the individual performing the action as well as the recipient. The purpose of this study was to assess whether prosocial behavior could also reduce state loneliness. To examine this, we conducted two experimental studies to evaluate the effect of different prosocial behaviors on loneliness and associated cognitive and affective measures. In Study 1, we operationalized prosocial behavior as gift giving, and participants (n = 286) were randomly assigned to complete either a gift giving, gift keeping, or neutral control task. In Study 2, prosocial behavior was operationalized as writing a note of appreciation to a close other, and participants (n = 288) were randomly assigned to complete a written note of appreciation to a close other, a written reflection of a time when they received social support in the past, or a neutral control task. Across both studies, prosocial behavior reliably reduced state loneliness and improved mood but was less effective at reducing negative automatic thoughts about the self. Depressive and social anxiety symptoms were explored as possible moderators of the effects of prosocial behavior on outcome measures and were found to be significant moderators in Study 2, but not Study 1. Future directions and implications of these findings are discussed."
+keywords = "Prosocial behavior,State loneliness, Mood"
+
+[article.6]
+title = "Blended Emotions can be Accurately Recognized from Dynamic Facial and Vocal Expressions"
+doi = "https://doi.org/10.1007/s10919-023-00426-9"
+authors = "Alexandra Israelsson, Anja Seiger & Petri Laukka"
+journal = "Journal of Nonverbal Behavior"
+publish = "47, pages267–284 (2023) "
+category = "Non-verbal"
+summary = "本研究测试了参与者在单峰视觉、听觉和多模态条件下识别混合情绪的准确性，结果表明，混合情绪（包括同等效价和不同效价情绪的组合）可以从动态面部/身体和声音的表达中准确识别。"
+abstract = "People frequently report feeling more than one emotion at the same time (i.e., blended emotions), but studies on nonverbal communication of such complex states remain scarce. Actors (N = 18) expressed blended emotions consisting of all pairwise combinations of anger, disgust, fear, happiness, and sadness – using facial gestures, body movement, and vocal sounds – with the intention that both emotions should be equally prominent in the resulting expression. Accuracy of blended emotion recognition was assessed in two preregistered studies using a combined forced-choice and rating scale task. For each recording, participants were instructed to choose two scales (out of 5 available scales: anger, disgust, fear, happiness, and sadness) that best described their perception of the emotional content and judge how clearly each of the two chosen emotions were perceived. Study 1 (N = 38) showed that all emotion combinations were accurately recognized from multimodal (facial/bodily/vocal) expressions, with significantly higher ratings on scales corresponding to intended vs. non-intended emotions. Study 2 (N = 51) showed that all emotion combinations were also accurately perceived when the recordings were presented in unimodal visual (facial/bodily) and auditory (vocal) conditions, although accuracy was lower in the auditory condition. To summarize, results suggest that blended emotions, including combinations of both same-valence and other-valence emotions, can be accurately recognized from dynamic facial/bodily and vocal expressions. The validated recordings of blended emotion expressions are freely available for research purposes."
+keywords = "Blended emotions, Compound emotions, Facial expression, Mixed emotions, Multimodal expression, Non-linguistic vocalizations"
