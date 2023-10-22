@@ -1,0 +1,14 @@
+[editor]
+name = "Shuoan Li"
+degree = "Undergraduate, 2022"
+
+[article.1]
+title = "Universal interpretations of vocal music"
+doi = "https://doi.org/10.1073/pnas.2218593120"
+authors = "Lidya Yurdum, Manvir Singh, Luke Glowacki, Thomas Vardy, Quentin D. Atkinson, Courtney B. Hilton, Disa Sauter, Max M. Krasnow, Samuel A. Mehr"
+journal = "Proceedings of the National Academy of Sciences"
+publish = "Vol. 120, No. 37, 7 September, 2023"
+category = "Culture,Art"
+summary = "为验证音乐的声学特征可以使音乐种类被跨文化识别，让多个不同语言不同文化的被试判断几段来自不同文化的音乐的使用场景：用于跳舞、用于哄小孩睡觉、用于治愈疾病或用于表达爱情。发现不同文化个体都可以识别除了表达爱情的三种使用场景，且语言、地理距离对识别准确度影响较小，说明这三种音乐的某些非语言特征有跨文化一致性。"
+abstract = "Despite the variability of music across cultures, some types of human songs share acoustic characteristics. For example, dance songs tend to be loud and rhythmic, and lullabies tend to be quiet and melodious. Human perceptual sensitivity to the behavioral contexts of songs, based on these musical features, suggests that basic properties of music are mutually intelligible, independent of linguistic or cultural content. Whether these effects reflect universal interpretations of vocal music, however, is unclear because prior studies focus almost exclusively on English-speaking participants, a group that is not representative of humans. Here, we report shared intuitions concerning the behavioral contexts of unfamiliar songs produced in unfamiliar languages, in participants living in Internet-connected industrialized societies (n = 5,516 native speakers of 28 languages) or smaller-scale societies with limited access to global media (n = 116 native speakers of three non-English languages). Participants listened to songs randomly selected from a representative sample of human vocal music, originally used in four behavioral contexts, and rated the degree to which they believed the song was used for each context. Listeners in both industrialized and smaller-scale societies inferred the contexts of dance songs, lullabies, and healing songs, but not love songs. Within and across cohorts, inferences were mutually consistent. Further, increased linguistic or geographical proximity between listeners and singers only minimally increased the accuracy of the inferences. These results demonstrate that the behavioral contexts of three common forms of music are mutually intelligible cross-culturally and imply that musical diversity, shaped by cultural evolution, is nonetheless grounded in some universal perceptual phenomena."
+keywords = "Cross-cultural, cultural evolution, form and function, music, universality"
